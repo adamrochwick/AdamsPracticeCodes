@@ -1,6 +1,6 @@
 //Write a function that takes a single string parameter
 //and returns the first non repeated character in the string.
-// If no such condition exists, return an empty string.
+//If no such condition exists, return an empty string.
 
 import java.util.Scanner;
 
