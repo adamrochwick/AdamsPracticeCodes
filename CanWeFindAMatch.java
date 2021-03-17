@@ -51,7 +51,7 @@ public class CanWeFindAMatch {
 
     private static boolean CanWeFindMatches(Integer Numbers[], Integer Matches[]) {
         boolean compare = false;
-        int TotalMatched = 0;
+        Integer TotalMatched = 0;
 
         for (Integer MatchIteration : Matches) {
             Integer Comparing = MatchIteration;
