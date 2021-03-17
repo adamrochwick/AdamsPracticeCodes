@@ -25,9 +25,9 @@ public class FirstNoRepeatCharacter {
 
     private static String FirstNonRepeatedCharacter(String SingleString) {
         String NonRepeatedCharacter = SingleString;
-        for (Character ch : SingleString.toCharArray()) {
-            if (SingleString.indexOf(ch) == SingleString.lastIndexOf(ch)) {
-                NonRepeatedCharacter = "First non repeat character = " + ch;
+        for (Character CharacterOfString : SingleString.toCharArray()) {
+            if (SingleString.indexOf(CharacterOfString) == SingleString.lastIndexOf(CharacterOfString)) {
+                NonRepeatedCharacter = "First non repeat character = " + CharacterOfString;
                 break;
             } else {
                 NonRepeatedCharacter = "First non repeat character = \"\" there are none.";
