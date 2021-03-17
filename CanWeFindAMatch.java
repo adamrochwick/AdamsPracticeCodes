@@ -48,7 +48,6 @@ public class CanWeFindAMatch {
         System.out.println("Are all the numbers matching in both? True or False: " + CanWeFindMatches(Numbers, Matches));
     }
 
-
     private static boolean CanWeFindMatches(Integer Numbers[], Integer Matches[]) {
         boolean compare = false;
         Integer TotalMatched = 0;
